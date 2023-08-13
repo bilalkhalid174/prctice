@@ -1,0 +1,132 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .navbar {
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(30px); 
+    justify-content: space-between;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 20px 20px;
+  }
+  .navbar:hover{
+    color: orange;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .logo:hover{
+    color: orange;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    animation: .5s;
+  }
+  .nav-link:hover{
+    color: orange;
+    background-color: orange;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+.nav-link li:hover{
+  color: orange;
+  background-color: orange;
+}
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-link:hover{
+    color: orange;
+    background-color: antiquewhite;
+  }
+  
+  .hero {
+    
+    background-size: cover;
+    color: yellow;
+    text-align: center;
+    padding: 50px 0;
+    cursor: pointer;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .about, .programs, .admissions, .contact {
+    padding: 25px;
+    color: skyblue;
+  }
+  
+  .about h2, .programs h2, .admissions h2, .contact h2 {
+    margin-bottom: 10px;
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  .about p, .programs ul, .admissions p, .contact p {
+    margin-bottom: 20px;
+    color: red;
+    margin: 20px;
+    font-weight: 2000;
+  }
+  .contact a{
+    color: yellow;
+  }
+  
+  .cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .cta-button:hover{
+    color: whitesmoke;
+    background-color: black;
+  }
+  footer {
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); 
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+    
+  }
+  footer:hover{
+    color: orange;
+  }
+  
